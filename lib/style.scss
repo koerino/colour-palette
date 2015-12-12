@@ -34,13 +34,13 @@ p {
     height: 64px;
     @include border-radius(50%);
     margin: 0.5em;
+    &:hover {
+        opacity: 0.5;
+    }
 }
 
 @each $colourKey, $colour in $palette {
     ##{$colourKey} {
         background-color: $colour;
-        &:hover {
-            opacity: 0.5;
-        }
     }
 }

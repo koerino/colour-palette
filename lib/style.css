@@ -32,250 +32,154 @@ p {
   -moz-border-radius: 50%;
   border-radius: 50%;
   margin: 0.5em; }
+  .s:hover {
+    opacity: 0.5; }
 
 #light-red {
   background-color: #FF6464; }
-  #light-red:hover {
-    opacity: 0.5; }
 
 #pink-red {
   background-color: #FF304F; }
-  #pink-red:hover {
-    opacity: 0.5; }
 
 #light-pink {
   background-color: #FDD7E4; }
-  #light-pink:hover {
-    opacity: 0.5; }
 
 #pure-pink {
   background-color: #F6358A; }
-  #pure-pink:hover {
-    opacity: 0.5; }
 
 #dark-pink {
   background-color: #E45A84; }
-  #dark-pink:hover {
-    opacity: 0.5; }
 
 #scarlet {
   background-color: #FF2400; }
-  #scarlet:hover {
-    opacity: 0.5; }
 
 #deep-red {
   background-color: #F70D1A; }
-  #deep-red:hover {
-    opacity: 0.5; }
 
 #wine-red {
   background-color: #990012; }
-  #wine-red:hover {
-    opacity: 0.5; }
 
 #pure-purple {
   background-color: #AD64C5; }
-  #pure-purple:hover {
-    opacity: 0.5; }
 
 #deep-purple {
   background-color: #422B72; }
-  #deep-purple:hover {
-    opacity: 0.5; }
 
 #flour {
   background-color: #FEFAEC; }
-  #flour:hover {
-    opacity: 0.5; }
 
 #exlight-yellow {
   background-color: #FFFFC2; }
-  #exlight-yellow:hover {
-    opacity: 0.5; }
 
 #light-yellow {
   background-color: #FFFD8C; }
-  #light-yellow:hover {
-    opacity: 0.5; }
 
 #pure-yellow {
   background-color: #FFFF00; }
-  #pure-yellow:hover {
-    opacity: 0.5; }
 
 #caramel {
   background-color: #FFE082; }
-  #caramel:hover {
-    opacity: 0.5; }
 
 #pure-orange {
   background-color: #FF7043; }
-  #pure-orange:hover {
-    opacity: 0.5; }
 
 #light-slate {
   background-color: #CCFFFF; }
-  #light-slate:hover {
-    opacity: 0.5; }
 
 #electric-blue {
   background-color: #9AFEFF; }
-  #electric-blue:hover {
-    opacity: 0.5; }
 
 #robin-egg-blue {
   background-color: #BDEDFF; }
-  #robin-egg-blue:hover {
-    opacity: 0.5; }
 
 #light-blue {
   background-color: #80D6FF; }
-  #light-blue:hover {
-    opacity: 0.5; }
 
 #sky-blue {
   background-color: #00C3FF; }
-  #sky-blue:hover {
-    opacity: 0.5; }
 
 #blue-ivy {
   background-color: #3090C7; }
-  #blue-ivy:hover {
-    opacity: 0.5; }
 
 #dark-blue {
   background-color: #0000A0; }
-  #dark-blue:hover {
-    opacity: 0.5; }
 
 #navy-blue {
   background-color: #000080; }
-  #navy-blue:hover {
-    opacity: 0.5; }
 
 #teal-blue {
   background-color: #002C6A; }
-  #teal-blue:hover {
-    opacity: 0.5; }
 
 #light-cyan {
   background-color: #E0FFFF; }
-  #light-cyan:hover {
-    opacity: 0.5; }
 
 #soft-cyan {
   background-color: #80E5E9; }
-  #soft-cyan:hover {
-    opacity: 0.5; }
 
 #blue-cyan {
   background-color: #4EE2EC; }
-  #blue-cyan:hover {
-    opacity: 0.5; }
 
 #green-cyan {
   background-color: #2CC4CB; }
-  #green-cyan:hover {
-    opacity: 0.5; }
 
 #pure-cyan {
   background-color: #00BCD4; }
-  #pure-cyan:hover {
-    opacity: 0.5; }
 
 #dark-cyan {
   background-color: #1972A4; }
-  #dark-cyan:hover {
-    opacity: 0.5; }
 
 #light-green {
   background-color: #9DFDC7; }
-  #light-green:hover {
-    opacity: 0.5; }
 
 #grass-green {
   background-color: #98FF98; }
-  #grass-green:hover {
-    opacity: 0.5; }
 
 #pure-green {
   background-color: #00E676; }
-  #pure-green:hover {
-    opacity: 0.5; }
 
 #mint-green {
   background-color: #69F0AE; }
-  #mint-green:hover {
-    opacity: 0.5; }
 
 #pale-green {
   background-color: #A9EEE6; }
-  #pale-green:hover {
-    opacity: 0.5; }
 
 #soft-green {
   background-color: #73F7DD; }
-  #soft-green:hover {
-    opacity: 0.5; }
 
 #cyan-green {
   background-color: #64FFDA; }
-  #cyan-green:hover {
-    opacity: 0.5; }
 
 #vivid-green {
   background-color: #1DE9B6; }
-  #vivid-green:hover {
-    opacity: 0.5; }
 
 #dark-green {
   background-color: #166678; }
-  #dark-green:hover {
-    opacity: 0.5; }
 
 #pure-white {
   background-color: #FFFFFF; }
-  #pure-white:hover {
-    opacity: 0.5; }
 
 #milk-white {
   background-color: #FAFAFA; }
-  #milk-white:hover {
-    opacity: 0.5; }
 
 #exlight-grey {
   background-color: #F5F5F5; }
-  #exlight-grey:hover {
-    opacity: 0.5; }
 
 #water {
   background-color: #EBF4FA; }
-  #water:hover {
-    opacity: 0.5; }
 
 #platinum {
   background-color: #E5E4E2; }
-  #platinum:hover {
-    opacity: 0.5; }
 
 #light-grey {
   background-color: #B0BEC5; }
-  #light-grey:hover {
-    opacity: 0.5; }
 
 #pure-grey {
   background-color: #9E9E9E; }
-  #pure-grey:hover {
-    opacity: 0.5; }
 
 #dark-grey {
   background-color: #616161; }
-  #dark-grey:hover {
-    opacity: 0.5; }
 
 #pure-black {
   background-color: #000000; }
-  #pure-black:hover {
-    opacity: 0.5; }
 
 /*# sourceMappingURL=style.css.map */
