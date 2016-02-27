@@ -1,0 +1,46 @@
+@import '../palette/palette-var';
+@import '../palette/palette-map';
+@import 'border-radius';
+
+h1{
+    color: $dark-blue; //using variables in the palette here
+    font-family: 'Muli', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin: 0.5em 0;
+}
+
+p {
+    @extend h1;
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 10em;
+    margin-bottom: 1em;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 42em;
+    margin: 0 auto 1em;
+}
+
+.s {
+    width: 64px;
+    height: 64px;
+    @include border-radius(50%);
+    margin: 0.5em;
+}
+
+@each $colourKey, $colour in $palette {
+    ##{$colourKey} {
+        background-color: $colour;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}

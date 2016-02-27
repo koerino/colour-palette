@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width initial-scale=1.0'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Muli'>
+        <link rel='stylesheet' href='lib/style.css'>
+        <script src="lib/jquery.js"></script>
+    </head>
+    <body>
+        <h1>Serving My Prejudice</h1>
+        <p id='displayColour'>Ref :</p>
+        <div id='container'>
+            <div id='light-red'></div>
+            <div id='pink-red'></div>
+            <div id='light-pink'></div>
+            <div id='soft-pink'></div>
+            <div id='pure-pink'></div>
+            <div id='scarlet'></div>
+            <div id='deep-red'></div>
+            <div id='wine-red'></div>
+            <div id='pure-purple'></div>
+            <div id='deep-purple'></div>
+            <div id='flour'></div>
+            <div id='light-yellow'></div>
+            <div id='pure-yellow'></div>
+            <div id='caramel'></div>
+            <div id='soft-orange'></div>
+            <div id='pure-orange'></div>
+            <div id='light-slate'></div>
+            <div id='electric-blue'></div>
+            <div id='robin-egg-blue'></div>
+            <div id='light-blue'></div>
+            <div id='sky-blue'></div>
+            <div id='blue-ivy'></div>
+            <div id='dark-blue'></div>
+            <div id='navy-blue'></div>
+            <div id='teal-blue'></div>
+            <div id='light-cyan'></div>
+            <div id='soft-cyan'></div>
+            <div id='blue-cyan'></div>
+            <div id='green-cyan'></div>
+            <div id='pure-cyan'></div>
+            <div id='dark-cyan'></div>
+            <div id='light-green'></div>
+            <div id='mint-green'></div>
+            <div id='pure-green'></div>
+            <div id='cold-green'></div>
+            <div id='pale-green'></div>
+            <div id='soft-green'></div>
+            <div id='cyan-green'></div>
+            <div id='vivid-green'></div>
+            <div id='dark-green'></div>
+            <div id='milk-white'></div>
+            <div id='pale-grey'></div>
+            <div id='platinum'></div>
+            <div id='exlight-grey'></div>
+            <div id='light-grey'></div>
+            <div id='pure-grey'></div>
+            <div id='dark-grey'></div>
+            <div id='pure-black'></div>
+            <div id='pure-white'></div>
+        </div>
+        <script>
+            $(document).ready(function() {
+                $('#container').children().addClass("s");
+                $(".s")
+                    .mouseover(function() {
+                        $("#displayColour").text("Ref : " + this.id);
+                    })
+                    .mouseleave(function() {
+                        $("#displayColour").text("Ref :");
+                    });
+            });
+        </script>
+    </body>
+</html>
+        
